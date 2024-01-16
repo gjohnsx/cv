@@ -16,7 +16,7 @@ export const RESUME_DATA = {
   about:
     "Full Stack Engineer focused on building products with extra attention to detail",
   summary:
-    "As a fullstack developer and growth marketer, my goal is to bring cryptographic truth to the forefront of our digital world and create web3 user experiences that will drive mass adoption. Let's work together to build a better future. Currently, I work with TypeScript, React with Nextjs, Node.js, and Supabase. I have over 4 years of experience in working remotely with companies all around the country.",
+    "As a full-stack developer, my goal is to build robust and scalable web applications that provide seamless user experiences. I am proficient in using TypeScript, React with Next.js, Node.js, and Supabase. With over 4 years of remote work experience, I have collaborated with diverse teams across the country, contributing to the development and growth of various projects. Let's work together to build innovative solutions that meet your business needs.",
   avatarUrl: "https://i.imgur.com/xPBIPH7.png",
   personalWebsiteUrl: "https://gregjohns.dev",
   contact: {
@@ -56,14 +56,14 @@ export const RESUME_DATA = {
   ],
   work: [
     {
-      company: "Self Employed Developer",
+      company: "Self Employed",
       link: "https://gregjohns.dev/",
       badges: ["Remote"],
       title: "Full Stack Developer",
       start: "2017",
       end: "present",
       description:
-        "As a full-stack developer, my goal is to build robust and scalable web applications that provide seamless user experiences. I am proficient in using TypeScript, React with Next.js, Node.js, and Supabase. With over 4 years of remote work experience, I have collaborated with diverse teams across the country, contributing to the development and growth of various projects. Let's work together to build innovative solutions that meet your business needs.",
+        "Developed and maintained client websites and applications using diverse programming languages and technologies. Executed growth hacking strategies, including A/B testing, email marketing, and social media advertising, to boost user acquisition and engagement. Collaborated closely with clients to comprehend their business objectives, delivering custom solutions to meet their needs. Utilized data analysis to track marketing campaign performance and pinpoint areas for enhancement. Managed budgets and resources effectively to maximize return on investment.",
     },
     {
       company: "Ring Ring Marketing",
