@@ -136,7 +136,10 @@ export default function Page() {
                   </h4>
                 </CardHeader>
                 <CardContent className="mt-2 text-xs">
-                  {work.description}
+                  {/* {work.description} */}
+                  {work.description.split("\n").map((line, index) => (
+                    <div key={index}>{line}</div>
+                  ))}
                 </CardContent>
               </Card>
             );
@@ -145,7 +148,7 @@ export default function Page() {
 
         {/* Line break to push education onto next printed line */}
         <br />
-        
+
         <Section>
           <h2 className="text-xl font-bold">Education</h2>
           {RESUME_DATA.education.map((education) => {

@@ -5,6 +5,7 @@ import {
   DeadAvatarsLogo,
   AzukiSalesLogo,
   PlagueNftLogo,
+  BabyNamerLogo,
 } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
@@ -62,8 +63,11 @@ export const RESUME_DATA = {
       title: "Full Stack Developer",
       start: "2017",
       end: "present",
-      description:
-        "Developed and maintained client websites and applications using diverse programming languages and technologies. Executed growth hacking strategies, including A/B testing, email marketing, and social media advertising, to boost user acquisition and engagement. Collaborated closely with clients to comprehend their business objectives, delivering custom solutions to meet their needs. Utilized data analysis to track marketing campaign performance and pinpoint areas for enhancement. Managed budgets and resources effectively to maximize return on investment.",
+      description: `
+        • Developed and maintained client websites and applications using diverse programming languages and technologies.
+        • Executed growth hacking strategies, including A/B testing, email marketing, and social media advertising, to boost user acquisition and engagement.
+        • Utilized data analysis to track marketing campaign performance and pinpoint areas for enhancement.
+        `,
     },
     {
       company: "Ring Ring Marketing",
@@ -72,8 +76,10 @@ export const RESUME_DATA = {
       title: "Senior Client Relations Manager",
       start: "2020",
       end: "2021",
-      description:
-        "Devised and executed strategies for website optimization, including paid search, SEO, and content marketing. Implemented PPC optimization techniques to maximize ad spend efficiency. Ensured seamless integration of these strategies into clients' existing systems, enhancing their digital presence and performance.",
+      description: `
+        • Devised and executed strategies for website optimization, including paid search, SEO, and content marketing.
+        • Implemented PPC optimization techniques to maximize ad spend efficiency.
+        `,
     },
     {
       company: "Omicron Media",
@@ -82,8 +88,11 @@ export const RESUME_DATA = {
       title: "SEM Manager",
       start: "2019",
       end: "2020",
-      description:
-        "Managed and executed search marketing campaigns for 10 B2C SaaS Usenet brands with a yearly ad spend of $1MM. Regularly conducted A/B testing of ad copy and landing pages, optimizing performance and enhancing conversion rates. Utilized advanced analytical tools to track campaign performance and implement improvements.",
+      description: `
+        • Managed and executed search marketing campaigns for 10 B2C SaaS Usenet brands with a yearly ad spend of $1MM.
+        • Regularly conducted A/B testing of ad copy and landing pages, optimizing performance and enhancing conversion rates.
+        • Utilized advanced analytical tools to track campaign performance and implement improvements.
+        `,
     },
     {
       company: "Pearson",
@@ -92,8 +101,9 @@ export const RESUME_DATA = {
       title: "Search Marketing Specialist",
       start: "2016",
       end: "2018",
-      description:
-        "Managed and executed search marketing campaigns with annual budgets of $4.3MM, developing strategies to optimize paid search, SEO, and content marketing efforts. Regularly improved campaign performance.",
+      description: `
+        • Managed comprehensive search marketing campaigns with an annual budget of $4.3MM, focusing on paid search.
+        • Successfully optimized campaign strategies, leading to enhanced performance and meeting key marketing objectives.`,
     },
   ],
   skills: [
@@ -106,6 +116,17 @@ export const RESUME_DATA = {
     "Python",
   ],
   projects: [
+    {
+      title: "Baby Namer",
+      techStack: ["TypeScript", "Next.js", "Supabase"],
+      description:
+        "A baby name finding web app to find matches with your partner.",
+      logo: BabyNamerLogo,
+      link: {
+        label: "babynamer.app",
+        href: "https://babynamer.app/",
+      },
+    },
     {
       title: "Mosaic",
       techStack: ["TypeScript", "Next.js", "Supabase", "Stripe", "Trigger.dev"],
@@ -159,12 +180,12 @@ export const RESUME_DATA = {
         href: "https://twitter.com/azukisales",
       },
     },
-    {
-      title: "The Plague NFT Twitter Data Collection",
-      techStack: ["Python", "Twitter API"],
-      description:
-        "Extracting user info from Tweet interaction for The Plague NFT's mint list.",
-      logo: PlagueNftLogo,
-    },
+    // {
+    //   title: "The Plague NFT Twitter Data Collection",
+    //   techStack: ["Python", "Twitter API"],
+    //   description:
+    //     "Extracting user info from Tweet interaction for The Plague NFT's mint list.",
+    //   logo: PlagueNftLogo,
+    // },
   ],
 } as const;
